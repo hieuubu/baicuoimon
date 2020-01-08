@@ -1,0 +1,742 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.container
+{
+	width: 1280px;
+	height: auto;
+	background-color: black;
+	margin: 0 auto;
+}
+.header
+{
+	width: 1280px;
+	height: 80px;
+}
+.logo
+{
+	width: 235px;
+	height: 80px;
+	float: left;
+}
+.menu
+
+{
+	width: 780px;
+	height: 80px;
+	float: left;
+}
+
+.timkiem
+{
+	
+	
+	width: 250px;
+	height: 80px;
+	float: right;
+	margin-right: 15px;
+}
+
+
+.khung1
+{
+	width: 1280px;
+	height: 835px;
+	background-color: aliceblue;
+	
+}
+.khung2
+{
+	width: 1280px;
+	height: 685px;
+	margin-top: 50px;
+}
+.hinhkhung2
+{
+	width: 560px;
+	height: 685px;
+	float: left;
+	transition:all 0.3s ease;
+	padding-left: 68px;
+}
+
+	
+.aboutme
+{
+	width: 600px;
+	height: 685px;
+	float: right;
+	margin-right: 60px;
+	border: #FFFFFF 2.5px solid;
+}
+.resume
+{
+	width: 1280px;
+	height: 70px;
+	background-color:#777777;
+	margin-top: 50px;
+}
+.khung3
+{
+	width: 1280px;
+	height: 780px;
+	margin-top: 40px;
+}
+.hinhkhung3
+{
+	width: 548px;
+	height: 313px;
+	background-color: brown;
+	float: left;
+	margin-left: 65px;
+	margin-top: 15px;
+
+	 
+}
+
+
+
+
+
+
+
+.khung4
+{
+	width: 1280px;
+	height: 130px;
+	background-color:yellow;
+}
+.downloadkhung4
+{
+	width: 20%;
+	height: 130px;
+	background-color: white;
+	margin-left: 40%;
+	margin-right: 40%;
+}
+
+.khung6
+{
+	width: 1280px;
+	height: 540px;
+	margin-top: 45px;
+	padding-left: 20px;
+	
+}
+.hinhkhung6
+{
+	width: 355px;
+	height: 237px;
+	background-color:#7B7B7B;
+	float: left;
+	margin-left: 44px;
+	margin-top: 12px;
+	transition: width 2s;
+	margin-top: 20px;
+	transition:all 0.3s ease;
+	
+}
+
+
+.hinhkhung6 img:hover
+{
+	webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+}
+
+
+
+
+.khungskill
+{
+	width: 1280px;
+	height: 200px;
+	margin-top: 30px;
+	background-color: blue;
+}
+.skill
+{
+	width: 1280px;
+	height: 268px;
+	background-color: aliceblue;
+	margin-top: 15px;
+}
+.project
+{
+	width: 1280px;
+	height: 194px;
+	background-color: aqua;
+	margin-top: 35px;
+}
+.hinh
+{
+	width: 1280px;
+	height: 969px;
+	background-color: beige;
+	margin-top: 15px;
+}
+.contact
+{
+	width: 1280px;
+	height: 185px;
+	background-color: brown;
+	margin-top: 25px;
+}
+.khung7
+{
+	width: 1280px;
+	height: 750px;
+	margin-top: 40px;
+}
+.hinhkhung7
+{
+	width: 524px;
+	height: 699px;
+	float: left;
+	margin-left: 65px;
+	margin-top: 25px;
+}
+.hinhkhung7_2
+{
+	width: 564px;
+	height: 585px;
+	margin-top: 31px;
+	float:left;
+	margin-left: 20px;
+}
+
+
+
+.hinhkhung7_3
+{
+	width: 604px;
+	height: 702px;
+	margin-top: 25px;
+	float:left;
+	margin-left: 25px;
+	border: 2px solid rgba(255,255,255,1.00);
+}
+
+
+nav
+{
+	
+	width: 780px;
+	height: 80px;
+	margin-left: 55px;
+	
+	
+}
+
+
+nav ul
+{
+	list-style: none;
+}
+
+
+nav ul li
+{
+	
+	
+	
+	float: left;
+	padding: 17px;
+	position: relative;	
+	width: 120px;
+	text-align: center;
+	
+}
+
+nav ul li ul
+{
+	
+	position:absolute;
+	visibility: hidden;
+	z-index: 100;
+	margin-left: -57px;
+	text-align: center;
+
+	
+	
+}
+
+nav ul li a
+{
+	color: white;
+	text-decoration: none;
+}
+
+
+
+
+nav ul li:hover
+{
+	
+	
+	background-color: #393939;
+	display:table-caption;
+	caption-side: bottom;
+}
+
+
+
+
+nav ul li ul li
+{
+	width: 120px;
+	background-color: black;
+}
+
+
+nav ul li:hover ul
+{
+	visibility: visible;
+}
+
+
+
+/*Slider*/
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1280px;
+  position: relative;
+  margin: auto;
+}
+
+
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin-top: 0px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: 0px;
+  color:black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  margin-left: 1%;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+	color: black;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: black;
+  font-size: 12px;
+  position: absolute;
+	margin-left: 50%;
+	margin-top: 62%;
+}
+
+
+
+
+
+
+
+
+
+.top-w3layouts p a:hover,
+.w3l-footer ul li a:hover {
+    opacity: .7;
+}
+
+.search-w3layouts input[type="search"] {
+    outline: none;
+    padding: 10px 15px;
+    color: white;
+    font-size: 13px;
+    border: none;
+    letter-spacing: 1px;
+    background: white;
+}
+
+.search-w3layouts button {
+    background: white;
+    color: black;
+    border: none;
+    font-size: 14px;
+    padding: 9px 15px;
+    -webkit-border-radius: 0;
+    -o-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    border-radius: 0;
+}
+p
+{
+	text-align: center;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 32px;
+	color: white;
+	padding-top: 90px;
+}
+p1
+{
+	text-align: center;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	color: black;
+	font-size: 32px;
+	padding-left: 165px;
+	font-style: italic;
+}
+.trongresume
+{
+	width: 1280px;
+	height: 50px;
+	padding-top: 15px;
+}
+
+
+
+
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #e9e9e9;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #2196F3;
+  color: white;
+}
+
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  border: none;
+  font-size: 17px;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a, .topnav input[type=text] {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  
+  .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+}
+
+
+
+
+section {
+  height: 300px;
+  margin: 60px 0;
+}
+
+
+
+
+.cd-top text-replace js-cd-top
+{
+width: 100%px;
+	height: 15px;
+background-color: aqua;
+	float: right;
+	text-decoration: none;
+}
+.top
+{
+	width: 1280px;
+	height: 35px;
+	background-color:#f5c443;
+	margin-left: 16.4%;
+}
+
+
+
+p9
+{
+	text-align: center;
+	color: black;
+	list-style: none;
+	text-decoration: none;
+	font-size: 24px;
+
+	
+}
+
+a
+{
+	text-decoration: none;
+	text-align: center;
+	margin-top: 25px;
+}
+
+section {
+  height: 300px;
+  margin: 60px 0;
+}
+
+
+
+
+section {
+  width: 548px;
+	height: 313px;
+}
+
+ .wow:first-child {
+      visibility: hidden;
+    }
+
+
+
+
+
+form input
+{
+	float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+p2
+{
+	text-align: center;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	color: black;
+	font-size: 32px;
+	font-style: italic;
+	margin-left: 26%;
+	
+}
+
+
+
+
+p3
+{
+	text-align: center;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	color: black;
+	font-size: 32px;
+	font-style: italic;
+	margin-left: 26%;
+	
+}
+
+
+p4
+{
+	text-align: center;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	color: white;
+	font-size:16px;
+	font-style:normal;
+	margin-left: 12px;
+	
+}
+
+p5
+{
+	text-align: center;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	color: white;
+	font-size:16px;
+	font-style:normal;
+	margin-left: 12px;
+	
+}
+
+
+
+
+
+
+* {box-sizing: border-box}
+.mySlides1, .mySlides2 {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1280px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a grey background color */
+.prev:hover, .next:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+.prev1, .next1 {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next1 {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev1:hover, .next1:hover {
+  background-color: #f1f1f1;
+  color: black;
+
+}
+
+
+p7
+{
+	
+	text-align: center;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	color: black;
+	font-size: 32px;
+	font-style: italic;
+	margin-left: 33%;
+	
+}
+
+
+
+
+.khungcuoi
+{
+	width: 1150px;
+	height: 310px;
+	margin-left: 65px;
+	margin-top: 70px;
+	
+}
+
+.item
+{
+	width: 355px;
+	height: 237px;
+	margin: 0;
+	padding: 0;
+}
